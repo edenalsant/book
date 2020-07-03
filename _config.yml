@@ -1,0 +1,8 @@
+# Book settings
+title: IF811 - Testes
+author: Eden Ernandes - eeas@cin.ufpe.br / Pedro Rossi - pgrr@cin.ufpe.br
+logo: logo.png
+
+latex:
+  latex_documents:
+    targetname: book.tex
