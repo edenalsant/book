@@ -21,11 +21,10 @@ Alguns arquivos e diretorios sao responsaveis pela organizao do livro, sao eles:
 - `/capitulos/numero_do_capitulo/secao` contem arquivos com conteudo de cada secao
 
 #### Como gerar arquivos html?
-a pasta `_build` contem os arquivos responsaveis pela geracao das paginas html. Para que as modificacoes sejam devidamente aplicadas, voce deve apagar a pasta `_build `e rodar os seguintes comandos, considerando que voce esta no diretorio do livro
+Simplesmente rode o script `build_book` e abra o arquivo html no path indicado
 
 ```
-cd ..
-jupyter-book build book/
+./build_book
 ```
 
 abrir o arquivo `index.html` para ter acesso a pagina atualizada
